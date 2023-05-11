@@ -1,0 +1,41 @@
+
+/*
+COLORS:
+
+#005073	(0,80,115)
+#107dac	(16,125,172)
+#189ad3	(24,154,211)
+#1ebbd7	(30,187,215)
+#71c7ec	(113,199,236)
+
+Name:
+Adventure bikes
+
+*/
+
+$color-primary: #107dac;
+$color-primary-light:#71c7ec;
+$color-primary-dark: #005073;
+
+$color-secondary-light:#1ebbd7;
+$color-secondary-dark:#189ad3;
+
+$color-white: #FFF;
+$color-grey: #777;
+$color-grey-light-1:#F7f7f7;
+$color-grey-light-2:#E8E8E8;
+$color-grey-light-3:#eee;
+$color-grey-dark-1:#8C8C8C;
+$color-grey-dark-2: #A9A9A9;
+$color-grey-dark-3: #555;
+$color-black: #000;
+
+//font
+$default-font-size: 1.6rem;
+
+
+// grid
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;

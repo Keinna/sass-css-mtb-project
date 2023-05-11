@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+   /* font-size: 16px; */
+    line-height: 1.7;
+    color: $color-grey;
+    
+    
+    box-sizing: border-box;
+}
+
+
+.heading-primary {
+    color: $color-white;
+    margin-top: 18rem;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+
+    &--main {
+        display: block;
+        font-size: 4rem;
+        font-weight: 500;
+        letter-spacing: 1.5rem;
+    
+        animation: moveInTop 2.5s;
+
+        @include respond(phone){
+            letter-spacing: 1rem;
+            font-size: 5rem;
+            margin-top: 28rem;
+        }
+        
+    }
+
+    &--sub{
+        display: block;
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: .5rem;
+        padding-top: 1.5rem;
+        animation: moveInTop 2.5s;
+        padding-bottom: 7rem;
+
+        @include respond(phone){
+
+            letter-spacing: .2rem;
+            font-size: 2rem;
+        }
+    }
+}
+
+   
+.heading-secondary{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to left, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+
+    @include respond(tab-port){
+        letter-spacing: 1rem;
+        font-size: 3rem;
+        }
+
+    @include respond(tab-port){
+         letter-spacing: 1rem;
+          font-size: 3rem;
+            }
+
+
+
+
+    &:hover{
+        transform: skewY(-1deg);
+        text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+            }
+
+   
+}
+
+.heading-tertiary{
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph{
+    font-size: 1.4rem;
+    
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
+
+.heading-feature-box{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-color:transparent;
+    color: $color-white;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+
+    &:hover{
+        transform: skewY(-1deg);
+        text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+            }
+
+}
+
+.ion-icon {
+    font-size: 128px;
+  }
